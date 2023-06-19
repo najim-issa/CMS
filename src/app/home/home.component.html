@@ -1,0 +1,147 @@
+<div>
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <img src="assets/img/clinic (2).png" style="width: 50px;">
+    <span>Clinic Management System</span>
+  
+    <div class="space"></div>
+  
+    <a mat-button href="home">Home</a>
+    <a mat-button href="aboutus">About Us</a>
+    <a mat-button href="doctor">Doctor</a>
+    <a mat-button  (click)="openDialog()">Contact us</a>
+    <a mat-button href="userlogin">User Login</a>
+    <a mat-raised-button color="accent" href="signup">Sign Up</a>
+   
+  </mat-toolbar>
+
+  <div class="menu-bar">
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Doctor</a></li>
+        <!-- <li><button id="modalBtn" class="button1">Contact Us</button></li> -->
+        <li id="modalBtn" class="button1"><a href="#">Contact</a></li>
+        <div id="simplemodal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="closebtn" onclick="closeModal()">&times;</span>
+                    <h2>Contact us</h2><br><br>
+                </div>
+                <div class="modal-body">
+                    <p>We are available 24/7, so don't hesitate to contact us, <br><br>
+                    
+                    Kiembe Samaki,<br><br>
+                    Zanzibar,<br><br>
+                    +255 774 328 342, <br><br>najimissaya21@gmail.com
+                </p>
+                
+                </div>
+    
+            </div>
+        </div>
+        <li><a href="#">User Login</a>
+        <div class="sub-menu-1">
+            <ul>
+                <li><a href="#">Doctor Login</a></li>
+                <li><a href="#">Patient Login</a></li>
+                <li><a href="#">Admin Login</a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a href="#">Signup</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">I am Doctor</a></li>
+                    <li><a href="#">I am Patient</a></li>
+                </ul>
+            </div></li>
+    </ul>
+</div>
+<div class="imagetu">
+    <img src="image/images (8).jpeg" style="width: 100%; height:500px;">
+</div><br>
+
+<div class="wrapper">
+    <section class="columns">
+        <div class="colum">
+            <h2>Patient Management</h2>
+            <p class="range">It encompasses a range of tasks and responsibilities related to the organization,
+                coordination, and deliver of patient care throughout their healthcare.</p>
+            <img src="image/images1.jpeg" style="width: 100%; border-radius: 10px;">
+        </div>
+
+        <div class="colum">
+            <h2>Doctor Management</h2>
+            <p class="range">It encompasses a range of tasks and responsibilities related to the organization,
+                coordination, and deliver of patient care throughout their healthcare.</p>
+            <img src="image/images1.jpeg" style="width: 100%; border-radius: 10px;">
+        </div>
+
+        <div class="colum">
+            <h2>Appointment Management</h2>
+            <p class="range">It encompasses a range of tasks and responsibilities related to the organization,
+                coordination, and deliver of patient care throughout their healthcare.</p>
+            <img src="image/images1.jpeg" style="width: 100%; border-radius: 10px;">
+        </div>
+    </section>
+</div>
+
+
+  <footer>
+    <div class="row primary">
+        <div class="column about">
+
+            <h3>Foolish Developer</h3>
+
+            <p class="rrr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,voluptatem corporis error non,</p>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-youtube-square"></i>
+                <i class="fa-brands fa-whatsapp-square"></i>
+            </div>
+        </div>
+
+        <div class="column links">
+            <h3>Some Links</h3>
+            <ul class="kazi">
+                <li class="kazi1"><a href="#faq" class="kazi3">F.A.Q</a></li>
+                <li class="kazi1"><a href="#cookies-policy" class="kazi3">Cookies Policy</a></li>
+                <li class="kazi1"><a href="#terms-of-services" class="kazi3">Terms Of Service</a></li>
+                <li class="kazi1"><a href="#support" class="kazi3">Support</a></li>
+            </ul>
+        </div>
+
+        <div class="column links">
+            <h3>Some Links</h3>
+            <ul class="kazi">
+                <li class="kazi1"><a href="#faq" class="kazi3">F.A.Q</a></li>
+                <li class="kazi1"><a href="#cookies-policy" class="kazi3">Cookies Policy</a></li>
+                <li class="kazi1"><a href="#terms-of-services" class="kazi3">Terms Of Service</a></li>
+                <li class="kazi1"><a href="#support" class="kazi3">Support</a></li>
+            </ul>
+        </div>
+
+        <div class="column subscribe">
+            <h3>Newsletter</h3>
+            <div>
+                <input type="email" placeholder="Your email id here" />
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row copyright">
+        <div class="footer-down-menu">
+            <a href="" class="kazi3">Home</a>
+            <a href="" class="kazi3">About</a>
+            <a href="" class="kazi3">Contact</a>
+            <a href="" class="kazi3">Blog</a>
+            <a href="" class="kazi3">Social</a>
+        </div>
+        <p>Copyright &copy; 2023 Clever Developer</p>
+    </div>
+    </footer>
+    

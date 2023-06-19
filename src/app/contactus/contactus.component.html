@@ -1,0 +1,39 @@
+<div id="simplemodal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="closebtn" onclick="closeModal()">&times;</span>
+            <h2>Contact us</h2><br><br>
+        </div>
+        <div class="modal-body">
+            <p>We are available 24/7, so don't hesitate to contact us, <br><br>
+            
+            Kiembe Samaki,<br><br>
+            Zanzibar,<br><br>
+            +255 774 328 342, <br><br>najimissaya21@gmail.com
+        </p>
+        
+        </div>
+
+    </div>
+</div>
+<script>
+    // modal elemment
+var modal =document.getElementById('simplemodal');
+//get modal element
+var modalBtn = document.getElementById('modalBtn');
+//get close button
+var closebtn =document.getElementsByClassName('closebtn')[0];
+
+//for open click
+modalBtn.addEventListener('click', openModal);
+//or close click
+closebtn.addEventListener('click', closeModal);
+
+function openModal(){
+modal.style.display = 'block';
+}
+
+function closeModal(){
+    modal.style.display ='none';
+    }
+</script>
